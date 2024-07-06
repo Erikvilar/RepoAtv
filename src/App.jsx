@@ -1,11 +1,15 @@
 import React from "react"
-import { BrowserRouter, Link } from "react-router-dom"
+import Menu from "./components/menu"
+
+import "./style/default.scss"
+import { Outlet } from "react-router-dom"
+
 function App() {
 
   return (
-  <div>
-   <h1>Teste deploy</h1>
-   <Link to="/home">Home</Link>
+  <div className="app-default">
+    <Menu/> 
+    <Outlet/>
    </div>
 
 
