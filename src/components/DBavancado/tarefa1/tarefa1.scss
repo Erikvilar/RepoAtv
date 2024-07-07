@@ -1,0 +1,42 @@
+.db_t1 {
+
+    width: 1680px;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    overflow-y: scroll;
+    position: relative;
+    left: 250px;
+    div{
+
+        width: 800px;
+        margin: auto;
+    }
+    h1{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    img{
+        display: flex;
+        margin-top: 50px;
+        width: 500px;
+        margin: auto;
+    }
+    p{
+
+        text-align:center;
+       padding-bottom: 50px;
+       padding-top: 50px;
+        width: 750px;
+        margin: auto;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+ 
+
+}

@@ -6,26 +6,47 @@ const menu = () => {
     const listaAtv = [
         // Lista atv wilton
         { link: "/", title: "Front End Web", id: "wilton", submenu:[
-            { link: "ex1", title: "Lista 01 - solução 1 " },
-            { link: "ex2", title: "Lista 01 - solução 2 " }
+            { link: "w_ex1", title: "Lista 01 - solução 1 ✔️ " },
+            { link: "w_ex2", title: "Lista 01 - solução 2 ✔️ " },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+           
         ] },
 
         //lista atv Carlos
         { link: "/", title: "DB Avançado", id: "cricia", submenu:[     
-            { link: "", title: "Vazio" },
-            { link: "", title: "Vazio " },
+            { link: "db_tarefa1", title: "Tarefa-1 " },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+           
         ] },
         { link: "/", title: "POO-2", id: "carlos", submenu:[     
-            { link: "", title: "Vazio" },
-            { link: "", title: "Vazio " },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+           
         ] },
         { link: "/", title: "Spring ORM", id: "angotti", submenu:[     
-            { link: "", title: "Vazio" },
-            { link: "", title: "Vazio " },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+          
         ] },
         { link: "/", title: "Testes Unitarios", id: "bruno", submenu:[
-            { link: "", title: "Vazio" },
-            { link: "", title: "Vazio " },     
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+            { link: "", title: "Vazio 🚫" },
+          
         ] },
      
     ]

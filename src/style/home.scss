@@ -8,17 +8,20 @@
 
 
 .content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 1680px;
+    height: 100vh;
+    position: relative;
+    left: 255px;
     background-color: black;
   
     .intro {
-        width: 1000px;
-        height: 600px;
-
+     
+        margin: auto;
+        width: 1200px;
+      
+        height: 800px;
+        display: flex;
+        flex-direction: column;
     
         .img-div {
             width: 180px;
@@ -61,7 +64,8 @@
                 margin: 8px;
                 background-color: transparent;
                 border: none;
-                border-bottom:1px solid white;
+                border-bottom:1px solid rgb(171, 171, 171);
+                
              
              
 
@@ -83,15 +87,19 @@
             button:hover{
                 transform: scale(1.1);
                 border: none;
+                border-bottom:1px solid rgb(194, 54, 241);
+            
             }
         }
       
     }
     .footer{
+ 
         width: 450px;
         height: 30px;
-        position: absolute;
-        top: 820px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
         border-left:2px solid rgb(157, 9, 137) ;
         border-right:2px solid rgb(12, 14, 114) ;
         transition: 0.3s ease;
@@ -103,6 +111,7 @@
         }
     }
     .footer:hover{
+
         border-right:1px solid rgb(157, 9, 137) ;
         border-left:1px solid rgb(12, 14, 114) ;
     }

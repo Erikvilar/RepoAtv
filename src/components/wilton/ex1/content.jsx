@@ -1,5 +1,5 @@
 import React from 'react'
-import "../ex1/style.css"
+import "../ex1/ex1.scss"
 const content= (props) => {
 
     return (

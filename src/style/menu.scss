@@ -1,36 +1,33 @@
 $list-color: #8b79e4;
 
 .menu-default {
+    position: fixed;
     width: 250px;
     height: 100vh;
     border-right: 5px solid rgb(203, 136, 239);
     background-color: #000000;
     color: white;
-    transition: 0.3s;
-  nav{
-    text-align:start;
-    display: flex;
-    flex-direction: column;
 
-  
-    a{
-        transition: 0.3s ease;
-        margin-left: 20px;
-        text-decoration: none;
-        color: white;
-    }
-    a:nth-child(5){
-        margin-top: 20px;
-    }
-    a:hover{
-        transform: scale(1.1);
-        
-      
+    nav {
+        text-align: start;
+        display: flex;
+        flex-direction: column;
 
-       
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Roboto',sans-serif;
+          
+        }
+
+     
+     
+
     }
-  
-  }
 
     h1 {
         font-weight: 600;
@@ -45,44 +42,48 @@ $list-color: #8b79e4;
 
     }
 
-    .select {
-        
-        width: 200px;
 
-        margin: 20px;
+    .dropdown {
+       
+        height: 45px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: 0.8s ease;
 
-        select {
-            background-color: transparent;
-            border: none;
-            width: 200px;
-            z-index: 1;
-            color: white;;
-            cursor: pointer;
-            font-size: 16px;
-           transition: 0.3s;
-         
-        option {
-    
+        .dropdown-title {
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Roboto',sans-serif;
+        }
+        .dropdown-title:hover::after{
             color: rgb(255, 255, 255);
-            background-color: #000000;
+            content: "  👈";
+          
+        }
+        .dropdown-title::after{
+            color: rgb(255, 255, 255);
          
           
         }
-        
-    }
-      select :nth-child(1){
-        color: rgb(146, 232, 243);
-        font-family:'Times New Roman', Times, serif;
-        font-weight: 800;
 
-      }
-      select:hover{
-       margin-left: 10px;
-
-      }
-     
+        li {
+            height: 40px;
+            a{
+                text-shadow: none;
+            }
+           
+        }
     }
 
+    .dropdown:hover {
+    
+        padding-top: 20px;
+        padding-bottom: 200px;
+      
+    }
+  
 
 }
 
