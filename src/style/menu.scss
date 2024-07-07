@@ -1,8 +1,91 @@
-.menu-default{
-    width: 200px;
+$list-color: #8b79e4;
+
+.menu-default {
+    width: 250px;
     height: 100vh;
-    border-right: 2px solid rgb(86, 236, 5);
-    background-color: black;
+    border-right: 5px solid rgb(203, 136, 239);
+    background-color: #000000;
     color: white;
+    transition: 0.3s;
+  nav{
+    text-align:start;
+    display: flex;
+    flex-direction: column;
+
+  
+    a{
+        transition: 0.3s ease;
+        margin-left: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    a:nth-child(5){
+        margin-top: 20px;
+    }
+    a:hover{
+        transform: scale(1.1);
+        
+      
+
+       
+    }
+  
+  }
+
+    h1 {
+        font-weight: 600;
+        background-image: linear-gradient(to left, #3c8c9a, #b393d3);
+        color: transparent;
+        margin-bottom: 30px;
+        text-align: center;
+        background-clip: text;
+        -webkit-background-clip: text;
+        font-family: 'Tahoma', sans-serif;
+        margin-top: 20px;
+
+    }
+
+    .select {
+        
+        width: 200px;
+
+        margin: 20px;
+
+        select {
+            background-color: transparent;
+            border: none;
+            width: 200px;
+            z-index: 1;
+            color: white;;
+            cursor: pointer;
+            font-size: 16px;
+           transition: 0.3s;
+         
+        option {
     
+            color: rgb(255, 255, 255);
+            background-color: #000000;
+         
+          
+        }
+        
+    }
+      select :nth-child(1){
+        color: rgb(146, 232, 243);
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 800;
+
+      }
+      select:hover{
+       margin-left: 10px;
+
+      }
+     
+    }
+
+
+}
+
+.menu-default:hover {
+    border-right: 5px solid rgb(160, 179, 238);
 }

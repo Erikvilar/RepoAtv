@@ -1,6 +1,6 @@
 import React from 'react'
 import "../style/home.scss"
-
+import Footer from './home-components/footer'
 import Buttons from './home-components/buttons'
 const home = () => {
   return (
@@ -29,6 +29,9 @@ const home = () => {
 
         </div>
       </div>
+     <Footer
+     dev="Desenvolvido por Erik Vilar"
+     />
     </div>
   )
 }

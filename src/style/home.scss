@@ -1,21 +1,25 @@
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
+
+
 .content {
-    background-color: rgba(0, 0, 0, 0.854);
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: black;
+  
     .intro {
         width: 1000px;
-        height: 500px;
+        height: 600px;
 
-
-
+    
         .img-div {
             width: 180px;
             margin: auto;
@@ -25,12 +29,16 @@
             }
         }
 
-        h1 {
-            color: white;
-            font-family: 'Roboto', sans-serif;
+       h1 {
+            font-size: 70px;
+            font-weight: 600;
+            background-image: linear-gradient(to left, #00323b, #8a4a96);
+            color: transparent;
             text-align: center;
-            margin-top: 30px;
-        }
+            background-clip: text;
+            -webkit-background-clip: text;
+            font-family: 'Tahoma',sans-serif;
+          }
 
         .intro-buttons {
 
@@ -52,8 +60,10 @@
                 cursor: pointer;
                 margin: 8px;
                 background-color: transparent;
-                border: 1px solid rgb(18, 178, 214);
-                border-radius: 15px;
+                border: none;
+                border-bottom:1px solid white;
+             
+             
 
                 img {
                     width: 30px;
@@ -63,16 +73,38 @@
                 p {
                     color: white;
                     margin-top: 10px;
-                    font-size: 15px;
+                    font-size: 18px;
+                    font-weight: 100;
                     text-decoration: none;
-             
                     font-family: 'Tahoma', sans-serif;
                 }
                
             }
             button:hover{
                 transform: scale(1.1);
+                border: none;
             }
         }
+      
     }
+    .footer{
+        width: 450px;
+        height: 30px;
+        position: absolute;
+        top: 820px;
+        border-left:2px solid rgb(157, 9, 137) ;
+        border-right:2px solid rgb(12, 14, 114) ;
+        transition: 0.3s ease;
+        p{
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+    }
+    .footer:hover{
+        border-right:1px solid rgb(157, 9, 137) ;
+        border-left:1px solid rgb(12, 14, 114) ;
+    }
+   
 }
