@@ -8,7 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-
+index.html.*
+vite.config.js.*
+.eslintrc.cjs.*
+dist.*
 *.local
 
 # Editor directories and files
