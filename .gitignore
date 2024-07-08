@@ -11,7 +11,7 @@ node_modules
 index.html.*
 vite.config.js.*
 .eslintrc.cjs.*
-dist.*
+dist*/
 *.local
 
 # Editor directories and files
