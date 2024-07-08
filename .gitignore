@@ -7,11 +7,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+#ignorando node
 node_modules
+#ignorando index
 index.html
+#ignorando vite
 vite.config.js
+#ignorando eslintrc
 .eslintrc.cjs
+#ignorando dist
 dist/*
+#ignorando local
 *.local
 
 # Editor directories and files
