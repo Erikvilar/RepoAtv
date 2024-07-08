@@ -5,23 +5,14 @@ import "../tarefa1/tarefa1.scss"
 const tarefa1 = () => {
   return (
     <div className='db_t1'>
-     <Information
-    title="Esta pagina esta em processo de criação ⚠️ "
-    class="information-content"
- description="Desafio e implementar o banco de dados com base nessas instruções Desafio e implementar o banco de dados com base nessas instruçõesDesafio e implementar o banco de dados com base nessas instruçõesDesafio e implementar o banco de dados com base nessas instruçõesDesafio e implementar o banco de dados com base nessas instruçõesDesafio e implementar o banco de dados com base nessas instruçõesDesafio e implementar o banco de dados com base nessas instruções "
-    image="./src/images/image.png"
-
-
-     />
-     <Information
-    title="Tarefa DB 1"
-    class="information-content"
-    description="Desafio e implementar o banco de dados com base nessas instruções  "
-    image="./src/images/image.png"
-
-
-     />
-  
+      <Information title="DB avançado Lista 01"
+        class="information-content"
+        description=" Projetar um banco de dados e fazer o que se pede nos exercicios abaixo, data de entrega para 12 /de Jul/2024."
+        image="src/images/image.png"/>
+      <Information title="Resolução"
+        class="information-content"
+        description="Primeiro passo implementei uma criação de um banco de dados no Workbench"
+        image="src/images/db_t1.png"/>
     </div>
   )
 }

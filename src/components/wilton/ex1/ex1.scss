@@ -1,17 +1,19 @@
+@import "./src/style/mixins.scss";
 * {
     margin: 0;
     padding: 0;
 }
 
 .master {
-    width: 1680px;
-    height: 100vh;
+    @include defaultSizePage();
+
     display: flex;
-    position: relative;
-    left: 255px;
-    flex-direction: row;
     justify-content: center;
-    background-color: rgba(128, 128, 128, 0.206);
+    flex-direction: row;
+
+    
+   
+    background-color: rgba(0, 0, 0, 0.775);
 
     img {
         width: 130px;
@@ -23,14 +25,11 @@
     }
 
     .box-content {
+        @include CenterByRelativePosition();
         margin: 5px;
         width: 300px;
-    
         height: 400px;
-        display: flex;
         text-align: center;
-        flex-direction: column;
-        justify-content: center;
         padding: 10px;
 
         .sub-content {

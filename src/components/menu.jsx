@@ -50,8 +50,6 @@ const menu = () => {
         ] },
      
     ]
-
-
     return (
         <div className='menu-default'>
             <nav className='menu-nav'>

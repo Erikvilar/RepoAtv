@@ -12,26 +12,20 @@ const home = () => {
         <h1>Repositorio de Atvidades React IFTM</h1>
         <div className='intro-buttons'>
 
-          <Buttons
-            path="https://www.youtube.com/watch?v=5s57C7leXc4"
+          <Buttons path="https://classroom.google.com/"
             img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3rpkjIjFxUm9QR4uT6FEmrNNg1SraJKKdOQ&s"
-            title="Meu Classroom"
-          />
-          <Buttons 
-          path="https://github.com/"
-            img="https://www.svgrepo.com/show/475654/github-color.svg"
-            title="Meu Github"
-          />
+            title="Meu Classroom" />
+          <Buttons path="https://github.com/"
+          img="https://www.svgrepo.com/show/475654/github-color.svg"
+          title="Meu Github"/>
           <Buttons path="https://ava.udicentro.iftm.edu.br/login/index.php"
-            img="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logotipo_IFET.svg/800px-Logotipo_IFET.svg.png"
-            title="Meu Moodle"
-          />
 
+            img="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logotipo_IFET.svg/800px-Logotipo_IFET.svg.png"
+            title="Meu Moodle"/>
+      
         </div>
       </div>
-     <Footer
-     dev="Desenvolvido por Erik Vilar"
-     />
+     <Footer dev="Desenvolvido por Erik Vilar"/>
     </div>
   )
 }
