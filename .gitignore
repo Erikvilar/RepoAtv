@@ -10,15 +10,18 @@ lerna-debug.log*
 #ignorando node
 node_modules
 #ignorando index
-index.html
+*.html
 #ignorando vite
-vite.config.js
+*.config.js
 #ignorando eslintrc
-.eslintrc.cjs
+*.cjs
 #ignorando dist
 dist/*
 #ignorando local
 *.local
+#ignorando vite
+
+
 
 # Editor directories and files
 .vscode/*
