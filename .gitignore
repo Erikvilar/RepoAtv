@@ -18,7 +18,7 @@ node_modules
 #ignorando dist
 dist/*
 #ignorando local
-*.local
+
 #ignorando vite
 
 
@@ -27,6 +27,12 @@ dist/*
 .vscode/*
 !.vscode/extensions.json
 .idea
+*.local
+node_modules
+index.html
+vite.config.js
+.eslintrc.cjs
+dist/
 .DS_Store
 *.suo
 *.ntvs*
