@@ -8,6 +8,8 @@ import Ex1_1 from './components/wilton/ex1/ex1_1';
 import Ex1_2 from './components/wilton/ex1/ex1_2';
 import Tarefa1 from './components/DBavancado/tarefa1/tarefa1';
 import Home from "./components/home"
+import Anotations from './components/anotations/anotations';
+import Ex5 from './components/wilton/ex5/ex5';
 
 
 const Routing  = ()=>{
@@ -19,6 +21,8 @@ const Routing  = ()=>{
           <Route path="w_ex1" element={<Ex1_1/>}/>
           <Route path="w_ex2" element={<Ex1_2/>}/>
           <Route path="db_tarefa1" element={<Tarefa1/>}/>
+          <Route path="anotations" element={<Anotations/>}/>
+          <Route path="w_ex5" element={<Ex5/>}/>
         </Route>
        
 

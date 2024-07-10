@@ -6,9 +6,9 @@ const menu = () => {
     const listaAtv = [
         // Lista atv wilton
         { link: "/", title: "Front End Web", id: "wilton", submenu:[
-            { link: "w_ex1", title: "Lista 01 - solução 1 ✔️ " },
-            { link: "w_ex2", title: "Lista 01 - solução 2 ✔️ " },
-            { link: "", title: "Vazio 🚫" },
+            { link: "w_ex1", title: "JSA01 -solução 1 ✔️ " },
+            { link: "w_ex2", title: "JSA01 -solução 2 ✔️ " },
+            { link: "w_ex5", title: "JSA05 ✔️" },
             { link: "", title: "Vazio 🚫" },
             { link: "", title: "Vazio 🚫" },
            
@@ -48,6 +48,7 @@ const menu = () => {
             { link: "", title: "Vazio 🚫" },
           
         ] },
+        { link: "/", title: "Anotações", id: "anotations", submenu:[{ link: "anotations", title: "➡️ 3P Periodo" }, ] },
      
     ]
     return (
@@ -57,7 +58,7 @@ const menu = () => {
                 <Link to="/">Menu</Link>
                 <ListLink listaAtv={listaAtv}/>
                 <Link to="/">Sobre</Link>
-                <Link to="/">Anotações</Link>
+
             </nav>
         </div>
     )

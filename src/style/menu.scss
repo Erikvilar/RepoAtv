@@ -18,10 +18,12 @@ $list-color: #8b79e4;
         a {
             text-decoration: none;
             color: white;
+            margin-left: 10px;
             padding: 10px;
             font-size: 20px;
             font-weight: 600;
             font-family: 'Roboto',sans-serif;
+            font-weight: 300;
           
         }
 
@@ -45,17 +47,21 @@ $list-color: #8b79e4;
 
 
     .dropdown {
-       
+        
         height: 45px;
         overflow: hidden;
         cursor: pointer;
         transition: 0.8s ease;
+        margin-left: 10px;
 
         .dropdown-title {
             color: white;
+           
             padding: 10px;
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 300;
+        
+          
             font-family: 'Roboto',sans-serif;
         }
         .dropdown-title:hover::after{
@@ -65,17 +71,18 @@ $list-color: #8b79e4;
         }
         .dropdown-title::after{
             color: rgb(255, 255, 255);
-         
-          
         }
 
         li {
             height: 40px;
+            
             a{
                 text-shadow: none;
+           
             }
            
         }
+     
     }
 
     .dropdown:hover {
@@ -84,6 +91,7 @@ $list-color: #8b79e4;
         padding-bottom: 200px;
       
     }
+   
   
 
 }

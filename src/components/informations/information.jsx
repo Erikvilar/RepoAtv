@@ -8,6 +8,9 @@ const information = (props) => {
             <p>{props.description}</p>
         </div>
         <img src={props.image} alt="" />
+        <div className='div-notes'>
+          <span className='notes'>{props.note}</span><p>{props.anotation}</p>
+        </div>
     </div>
   )
 }
