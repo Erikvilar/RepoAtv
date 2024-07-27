@@ -1,11 +1,14 @@
 $list-color: #8b79e4;
 
+
 .menu-default {
-    position: fixed;
-    width: 250px;
-    height: 100vh;
-    left: 0;
-    border-right: 5px solid rgb(203, 136, 239);
+  
+
+width: 300px;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: saturate(3);
     background-color: #000000;
     color: white;
 
@@ -34,7 +37,7 @@ $list-color: #8b79e4;
 
     h1 {
         font-weight: 600;
-        background-image: linear-gradient(to left, #3c8c9a, #b393d3);
+        background-image: linear-gradient(to left, #e4e4e4, #757575);
         color: transparent;
         margin-bottom: 30px;
         text-align: center;
@@ -96,6 +99,3 @@ $list-color: #8b79e4;
 
 }
 
-.menu-default:hover {
-    border-right: 5px solid rgb(160, 179, 238);
-}

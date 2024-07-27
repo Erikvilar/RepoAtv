@@ -4,25 +4,25 @@ import {HashRouter, Routes, Route} from "react-router-dom"
 import App from './App';
 
 
-import Ex1_1 from './components/wilton/ex1/ex1_1';
-import Ex1_2 from './components/wilton/ex1/ex1_2';
-import Tarefa1 from './components/DBavancado/tarefa1/tarefa1';
-import Home from "./components/home"
+
+import Home from './components/nonEssentials/home';
 import Anotations from './components/anotations/anotations';
-import Ex5 from './components/wilton/ex5/ex5';
-
-
+import Ex5_2 from './components/frontEndAvancado/Lista 05/ex5_2';
+import Ex5_1 from './components/frontEndAvancado/Lista 05/ex5_1';
+import Ex_6 from './components/frontEndAvancado/Lista 06/ex6';
+import Atividade1 from './components/DBavancado/atividade1';
 const Routing  = ()=>{
   return(
     <HashRouter>
       <Routes>
         <Route path="/" element={<App/>}>
           <Route index element={<Home/>}/>
-          <Route path="w_ex1" element={<Ex1_1/>}/>
-          <Route path="w_ex2" element={<Ex1_2/>}/>
-          <Route path="db_tarefa1" element={<Tarefa1/>}/>
+          <Route path="Lista05.1" element={<Ex5_1/>}/>
+          <Route path="Lista05.2" element={<Ex5_2/>}/>
+          <Route path="Lista06" element={<Ex_6/>}/>
+          <Route path="Atividade 1" element={<Atividade1/>}/>
           <Route path="anotations" element={<Anotations/>}/>
-          <Route path="w_ex5" element={<Ex5/>}/>
+        
         </Route>
        
 

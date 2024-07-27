@@ -1,8 +1,13 @@
-@import "mixins";
+
 *{
     margin: 0;
     padding: 0;
+
 }.app-default{
-    
-@include defaultAlign();
+display: flex;
+flex-direction: row;
+}.content{
+    width: 100%;
+    height: 100vh;
+  
 }

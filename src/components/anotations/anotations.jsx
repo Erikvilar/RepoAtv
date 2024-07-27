@@ -1,5 +1,5 @@
 import React from 'react'
-import "/src/style/anotations.scss"
+
 const anotations = () => {
   return (
   <section className="anotations">
