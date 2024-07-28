@@ -1,5 +1,5 @@
 import React from 'react'
-import "/src/style/Source.scss"
+import "/src/style/Source.css"
 const source = ({gitUrl}) => {
   return (
     <div className='source'>

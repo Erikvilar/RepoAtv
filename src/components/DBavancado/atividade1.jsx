@@ -4,7 +4,7 @@ import { TextsOnly, TitleOnly } from './props'
 const atividade1 = () => {
   return (
   <section className='db-avancado-default'>
-    <TitleOnly title="Oba teste"/>
+    <TitleOnly title="Em construção"/>
   </section>
   )
 }

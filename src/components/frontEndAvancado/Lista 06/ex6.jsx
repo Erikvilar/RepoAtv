@@ -4,8 +4,7 @@ import Source from '../../nonEssentials/home-components/source'
 
 const ex6 = () => {
   return (
-    <section className="component">
-]
+    <section >
       <Props title="Acesso a informação" information="Veja dados de transparencia e governaça"/>
       <div className='contents'>
       <Props title="PLANO DE DESENVOLVIMENTO INSTITUCIONAL" information="none"/>
